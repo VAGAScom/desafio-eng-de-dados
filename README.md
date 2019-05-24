@@ -85,4 +85,5 @@ Você irá receber uma amostra de dados para essa montagem de arquitetura ( Wine
 - Nomes das tecnologias (softwares, serviços, conectores, bibliotecas, módulos de programas que - você teria que desenvolver e etc)
 
 Esperamos que você se divirta codificando essa solução. Estamos aqui (codesubmissions@vagas.com.br) caso surjam dúvidas durante o desenvolvimento.
+
 Boa sorte :)
