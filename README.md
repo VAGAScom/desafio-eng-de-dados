@@ -1,4 +1,11 @@
 # Desafio para Engenheiro(a) de Dados - VAGA.com
+
+
+## Considerações sobre o desafio
+
+* O prazo para entrega da solução é de 7 dias corridos, contados a partir da data de recebimento do desafio. Caso você precise de mais tempo, entre em contato conosco e fechamos uma nova data para a entrega. Não se preocupe, somos super flexíveis ;)
+* Quando estiver tudo pronto, você deve mandar um e-mail para codesubmissions@vagas.com.br com o assunto `Engenheiro(a) de Dados VAGAS.com - <%SEU_NOME%>` e o link para o seu repositório.
+
 ## O que procuramos?
 
 Engenheiros de dados são responsáveis por compilar e instalar sistemas de banco de dados, escrever consultas complexas, dimensionar dados para várias máquinas e implementar sistemas de recuperação de desastres. O engenheiro de dados deve ter um bom entendimento de dados estruturados e não estruturados e deve ser capaz de construir pipelines que movam dados por toda a empresa.
