@@ -28,10 +28,8 @@ Engenheiros de dados são responsáveis por compilar e instalar sistemas de banc
 
 ### Descrição
 Temos um projeto onde iremos construir uma rede social para amantes de vinhos, onde nossos usuários poderão se cadastrar e compartilhar fotos, gostos, experiências, etc... e com base nessas interações iremos recomendar novos vinhos e onde comprá-los. 
-Para deixar nosso sistema mais inteligente, iremos coletar dinamicamente as informações dos vinhos em e-commerces e demais sites na internet, através de web crawlers que irão indexar estes dados em um DataLake.
+Para deixar nosso sistema mais inteligente iremos coletar dinamicamente as informações dos vinhos em e-commerces e demais sites na internet através de web crawlers que irão indexar estes dados em um DataLake. E Você como engenheiro de dados recebeu esta missão de montar a arquitetura deste DataLake
 
-Você como engenheiro de dados recebeu esta missão de montar a arquitetura deste DataLake
-DataSets.
 Para te ajudar, disponibilizamos os datasets abaixo  representando o RAWDATA que nossos crawlers montam:
 
 ### *Vinhos*: 
