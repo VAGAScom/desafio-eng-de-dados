@@ -3,7 +3,7 @@
 
 ## Considerações sobre o desafio
 
-* O prazo para entrega da solução é de 7 dias corridos, contados a partir da data de recebimento do desafio. Caso você precise de mais tempo, entre em contato conosco e fechamos uma nova data para a entrega. Não se preocupe, somos super flexíveis ;)
+* O prazo padrão para entrega da solução é de 7 dias corridos, contados a partir da data de recebimento do desafio. Caso você precise de mais tempo, entre em contato conosco e fechamos uma nova data para a entrega. Não se preocupe, somos super flexíveis ;)
 * Quando estiver tudo pronto, você deve mandar um e-mail para codesubmissions@vagas.com.br com o assunto `Engenheiro(a) de Dados VAGAS.com - <%SEU_NOME%>` e o link para o seu repositório.
 - Não se preocupe em responder todos os pontos do desafio. Queremos ver até que ponto você consegue se aprofundar :)
 
@@ -61,11 +61,6 @@ Para te ajudar, disponibilizamos os datasets abaixo  representando o RAWDATA que
         - Like Netflix	
         - Favorite Wine
 
-
-
-
-
-
 ## Desafio
 
 Com base nos datasets acima, proponha um desenho arquitetural descritivo, cobrindo os seguintes cenários:
@@ -99,6 +94,8 @@ Você irá receber uma amostra de dados para essa montagem de arquitetura ( Wine
 * BigQuery para armazxenar os dados por causa de custo e XPTO
 * Apache Spark para aplicar modelos e XPTO 
 * ...
+
+## Considerações finais
 
 Esperamos que você se divirta codificando essa solução. Estamos aqui (codesubmissions@vagas.com.br) caso surjam dúvidas durante o desenvolvimento.
 
