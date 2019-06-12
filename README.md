@@ -91,6 +91,15 @@ Você irá receber uma amostra de dados para essa montagem de arquitetura ( Wine
 - Descrições de funcionamento
 - Nomes das tecnologias (softwares, serviços, conectores, bibliotecas, módulos de programas que - você teria que desenvolver e etc)
 
+#### Exemplo
+![alt text](https://raw.githubusercontent.com/VAGAScom/desafio-eng-de-dados/master/exemplo_resposta.png)
+
+*Descrição*
+* Kafka para a parte X por causa  de XPTO
+* BigQuery para armazxenar os dados por causa de custo e XPTO
+* Apache Spark para aplicar modelos e XPTO 
+* ...
+
 Esperamos que você se divirta codificando essa solução. Estamos aqui (codesubmissions@vagas.com.br) caso surjam dúvidas durante o desenvolvimento.
 
 Boa sorte :)
