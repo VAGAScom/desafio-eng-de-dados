@@ -65,23 +65,29 @@ Para te ajudar, disponibilizamos os datasets abaixo  representando o RAWDATA que
 
 Com base nos datasets acima, proponha um desenho arquitetural descritivo, cobrindo os seguintes cenários:
 
-- Um Cientista de Dados solicitou uma base no qual quer saber se existe relação entre o preço de um vinho e país. Ele prefere que seja um arquivo csv com 100 amostras aleatoriamente. Como você faria essa operação na arquitetura proposta?
-- No final do ano, um outro Cientista de Dados solicitou melhorar o modelo que foi gerado entre preço e pais, e precisa exatamente o mesmo dataset disponibilizado para a primeira versão. Como na arquitetura proposta isso poderá ocorrer?
-- Um Cientista de Dados solicitou uma forma de verificar se existe a característica de "doçura" (sweetness) do vinho. Como a sua arquitetura disponibiliza a busca de existência e significado de cada informação?
-- Nosso negócio está expandindo e agora temos informações atualizadas dos vinhos vindos direto dos produtores. Alguns deles enviam por excel e outros por APIs. Como a arquitetura comporta esse tipo de entrada de dados?
-- Uma nova feature no nosso sistema agora permite que o usuário tire foto de um rótulo no mercado e nos envie, via API, para que nosso time de Ciência de dados possa construir uma funcionalidade de sugestões de vinhos semelhantes. Como os meta dados e a imagem do rótulo podem ser armazenados e associados ao usuário nessa estrutura?
-- Os dados de Preço precisam ser convertidos para Real e também preservando seu valor original em dólar. Como você estruturaria essa transformação?
-Novas APIs complementares foram desenvolvidas para fornecer dados dos fabricantes de Vinhos: ano da safra, tipo de uva e nossos Crawlers já estão prontos para concatenar essas informações para os novos itens à coletar, porém os antigos precisam desta informação também. Como você propõe a adição destes dados na Arquitetura Proposta?
-- Os dados de recomendação de vinhos, baseados na foto do rótulo enviado, trouxe um interesse bem grande para tomadas de decisões. Na criação de um dashboard: Como sua arquitetura pode mostrar as nuances periódicas (ex. início vs fim de ano)? Como sua arquitetura pode deixar aparente que hoje houve um aumento bem grande pela procura de vinhos?
-O excesso de requisições ao data lake está perdendo desempenho gradativamente, aumentando o tempo de resposta. Como você propõe analisar o desempenho? Existe alguma estratégia para escalar?
-- Um requisito primordial é a integridade de todas as informações salvas no data lake. Como você trabalharia com backup e redundância?
-Temos um apreço muito grande pela qualidade e disponibilidade. Para isso, contamos com algumas métricas para ajudar a nos prevenir e/ou nos alertar sobre problemas. Como metrificar e monitorar as atividades na Arquitetura Proposta?
-- Temos um limite financeiro para investir mensalmente. Considerando Clouds Públicas e utilizando a arquitetura proposta, como poderíamos explorar este cenário financeiramente?
-Fomos questionados, por uma ação judicial, sobre dados que foram vazados. Como na sua arquitetura vamos proteger a confidencialidade de dados?
+### Perguntas principais
+1) Um Cientista de Dados solicitou uma base no qual quer saber se existe relação entre o preço de um vinho e país. Ele prefere que seja um arquivo csv com 100 amostras aleatoriamente. Como você faria essa operação na arquitetura proposta?
+2) No final do ano, um outro Cientista de Dados solicitou melhorar o modelo que foi gerado entre preço e pais, e precisa exatamente o mesmo dataset disponibilizado para a primeira versão. Como na arquitetura proposta isso poderá ocorrer?
+3) Um Cientista de Dados solicitou uma forma de verificar se existe a característica de "doçura" (sweetness) do vinho. Como a sua arquitetura disponibiliza a busca de existência e significado de cada informação?
+4) Novas APIs complementares foram desenvolvidas para fornecer dados dos fabricantes de Vinhos: ano da safra, tipo de uva e nossos Crawlers já estão prontos para concatenar essas informações para os novos itens à coletar, porém os antigos precisam desta informação também. Como você propõe a adição destes dados na Arquitetura Proposta?
+5) O excesso de requisições ao data lake está perdendo desempenho gradativamente, aumentando o tempo de resposta. Como você propõe analisar o desempenho? Existe alguma estratégia para escalar?
+6) Um requisito primordial é a integridade de todas as informações salvas no data lake. Como você trabalharia com backup e redundância?
+7) Temos um apreço muito grande pela qualidade e disponibilidade. Para isso, contamos com algumas métricas para ajudar a nos prevenir e/ou nos alertar sobre problemas. Como metrificar e monitorar as atividades na Arquitetura Proposta?
+8) Temos um limite financeiro para investir mensalmente. Considerando Clouds Públicas e utilizando a arquitetura proposta, como poderíamos explorar este cenário financeiramente?
+9) Fomos questionados, por uma ação judicial, sobre dados que foram vazados. Como na sua arquitetura vamos proteger a confidencialidade de dados?
 
+### Perguntas Bônus (valem pontos extras)
+
+1) Nosso negócio está expandindo e agora temos informações atualizadas dos vinhos vindos direto dos produtores. Alguns deles enviam por excel e outros por APIs. Como a arquitetura comporta esse tipo de entrada de dados?
+2) Uma nova feature no nosso sistema agora permite que o usuário tire foto de um rótulo no mercado e nos envie, via API, para que nosso time de Ciência de dados possa construir uma funcionalidade de sugestões de vinhos semelhantes. Como os meta dados e a imagem do rótulo podem ser armazenados e associados ao usuário nessa estrutura?
+3) Os dados de recomendação de vinhos, baseados na foto do rótulo enviado, trouxe um interesse bem grande para tomadas de decisões. Na criação de um dashboard: Como sua arquitetura pode mostrar as nuances periódicas (ex. início vs fim de ano)? Como sua arquitetura pode deixar aparente que hoje houve um aumento bem grande pela procura de vinhos?
+4) Os dados de Preço precisam ser convertidos para Real e também preservando seu valor original em dólar. Como você estruturaria essa transformação?
+
+### Complementos
 Você irá receber uma amostra de dados para essa montagem de arquitetura ( Wines e Users), porém esperamos que você crie sua própria estrutura de dados que faça sentido para sua solução.
 
-### *Nas respostas, esperamos um mapa arquitetural:*
+### O que entregar? 
+Nas respostas, esperamos um mapa arquitetural:
 - Esquemas de fluxo de dados
 - Descrições de funcionamento
 - Nomes das tecnologias (softwares, serviços, conectores, bibliotecas, módulos de programas que - você teria que desenvolver e etc)
