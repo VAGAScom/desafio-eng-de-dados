@@ -84,7 +84,9 @@ Com base nos datasets acima, proponha um desenho arquitetural descritivo, cobrin
 4) Os dados de Preço precisam ser convertidos para Real e também preservando seu valor original em dólar. Como você estruturaria essa transformação?
 
 ### Complementos
-Você irá receber uma amostra de dados para essa montagem de arquitetura ( Wines e Users), porém esperamos que você crie sua própria estrutura de dados que faça sentido para sua solução.
+Neste repositório você terá disponivel uma amostra de dados para auxiliar montagem da arquitetura deste desafio:
+    - ![Wines](https://github.com/VAGAScom/desafio-eng-de-dados/blob/master/Wines.xlsx)
+    - ![Users](https://github.com/VAGAScom/desafio-eng-de-dados/blob/master/User_Wines.xlsx)
 
 ### O que entregar? 
 Nas respostas, esperamos um mapa arquitetural:
