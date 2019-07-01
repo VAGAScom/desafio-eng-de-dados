@@ -85,8 +85,8 @@ Com base nos datasets acima, proponha um desenho arquitetural descritivo, cobrin
 
 ### Complementos
 Neste repositório você terá disponivel uma amostra de dados para auxiliar montagem da arquitetura deste desafio:
-    - ![Wines](https://github.com/VAGAScom/desafio-eng-de-dados/blob/master/Wines.xlsx)
-    - ![Users](https://github.com/VAGAScom/desafio-eng-de-dados/blob/master/User_Wines.xlsx)
+    - [Wines](https://github.com/VAGAScom/desafio-eng-de-dados/blob/master/Wines.xlsx)
+    - [Users](https://github.com/VAGAScom/desafio-eng-de-dados/blob/master/User_Wines.xlsx)
 
 ### O que entregar? 
 Nas respostas, esperamos um mapa arquitetural:
