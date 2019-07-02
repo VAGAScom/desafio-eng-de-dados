@@ -99,10 +99,11 @@ Nas respostas, esperamos um mapa arquitetural:
 ![alt text](https://raw.githubusercontent.com/VAGAScom/desafio-eng-de-dados/master/exemplo_resposta.png)
 
 *Descrição*
-* Kafka para a parte X por causa  de XPTO
-* BigQuery para armazxenar os dados por causa de custo e XPTO
-* Apache Spark para aplicar modelos e XPTO 
-* ...
+* *cenário:*  “Um Cientista de Dados solicitou uma base no qual quer saber se existe relação entre o preço de um vinho e país. Ele prefere que seja um arquivo csv com 100 amostras aleatoriamente. Como você faria essa operação na arquitetura proposta?”
+ *R:* No modelo proposto com o *Z* esse dataset seria persistido de maneira XYZ e uma aplicação externa poderia se conectar a essa base para executar uma query extraindo a amostra de 100 itens e salva-lo em CSV...
+
+* *cenário:* “No final do ano, um outro Cientista de Dados solicitou melhorar o modelo que foi gerado entre preço e pais, e precisa exatamente o mesmo dataset disponibilizado para a primeira versão. Como na arquitetura proposta isso poderá ocorrer?”
+    *R:* No modelo proposto com o *Z* o dado bruto ficaria disponível de forma XPTO de forma permanente e incremental, sendo assim possibilita a criação de novos modelos aproveitando...
 
 ## Considerações finais
 
